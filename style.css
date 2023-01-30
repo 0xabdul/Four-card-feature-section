@@ -1,0 +1,340 @@
+/* import url for font family */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,400;1,300;1,500&family=Josefin+Slab&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@400;700&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Open+Sans&family=Outfit:wght@400;600;700&family=Poppins:wght@600&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Rowdies&family=Satisfy&family=Seymour+One&family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,400;1,300;1,500&family=Josefin+Slab&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@400;700&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Open+Sans&family=Outfit:wght@400;600;700&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Rowdies&family=Satisfy&family=Seymour+One&family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,400;1,300;1,500&family=Josefin+Slab&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@400;700&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Open+Sans&family=Outfit:wght@400;600;700&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Rowdies&family=Satisfy&family=Seymour+One&family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap');
+/* main css code */
+*{
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+    color:hsl(229, 6%, 66%);
+    margin-top:50px;
+}
+h1,h2{
+    line-height:24px;
+}
+   
+h2{
+    font-size:35px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight:600;
+    padding-bottom:10px;
+    color:hsl(234, 12%, 34%);
+}
+.logo-content{
+    text-align:center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight:400;
+    color:hsl(229, 6%, 66%);
+    line-height:16px;
+}
+.supervisor-roll{
+    padding-top:10px;
+    background-color:white;
+    padding:30px;
+    width:370px;
+    height:300px;
+    border-top-style:solid;
+    border-width:5px;
+    border-color:hsl(180, 62%, 55%);
+    border-radius:5px;
+    box-shadow:1px 1px 20px 1px hsl(229, 6%, 66%);
+    margin-top:200px;
+}
+.supervisor{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:600;
+   color: hsl(234, 12%, 34%);
+   font-size:20px;
+}
+.supervisor-content{
+    font-family: 'Poppins', sans-serif;
+    color:hsl(229, 6%, 66%);
+    width:300px;
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+html,body{
+    overflow-x:hidden;
+    max-width:100%;
+    overflow-y:hidden;
+}
+.container{
+    margin-top:-50px;
+}
+
+.supervisor-img{
+    float:right;
+    padding-top:10px;
+}
+.team-roll{
+    padding-top:10px;
+    background-color:white;
+    padding:30px;
+    width:370px;
+    padding-bottom:120px;
+    border-top-style:solid;
+    border-width:5px;
+    border-color:hsl(0, 78%, 62%);
+    border-radius:5px;
+    box-shadow:1px 1px 20px 1px hsl(229, 6%, 66%);
+}
+.team{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:600;
+   color: hsl(234, 12%, 34%);
+   font-size:20px;
+}
+.team-content{
+    font-family: 'Poppins', sans-serif;
+    color:hsl(229, 6%, 66%);
+    width:350px;
+}
+.team-img{
+    float:right;
+    padding-top:10px;
+}
+.karma-roll{
+    padding-top:10px;
+    background-color:white;
+    padding:30px;
+    width:370px;
+    margin-top:50px;
+    padding-bottom:120px;
+    border-top-style:solid;
+    border-width:5px;
+    border-color: hsl(34, 97%, 64%);
+    border-radius:5px;
+    box-shadow:1px 1px 20px 1px hsl(229, 6%, 66%);
+}
+.karma{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:600;
+   color: hsl(234, 12%, 34%);
+   font-size:20px;
+}
+.karma-content{
+    font-family: 'Poppins', sans-serif;
+    color:hsl(229, 6%, 66%);
+    width:350px;
+}
+.karma-img{
+    float:right;
+    padding-top:10px;
+}
+.calculator-roll{
+    padding-top:10px;
+    background-color:white;
+    padding:30px;
+    width:370px;
+    height:300px;
+    padding-bottom:120px;
+    border-top-style:solid;
+    border-width:5px;
+    border-color:  hsl(212, 86%, 64%);
+    border-radius:5px;
+    box-shadow:1px 1px 20px 1px hsl(229, 6%, 66%);
+    margin-top:200px;
+}
+.calculator{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:600;
+   color: hsl(234, 12%, 34%);
+   font-size:20px;
+}
+.calculator-content{
+    font-family: 'Poppins', sans-serif;
+    color:hsl(229, 6%, 66%);
+    width:350px;
+}
+.calculator-img{
+    float:right;
+    padding-top:10px;
+}
+.wrapper{
+    display: flex;
+    margin-top:50px;
+    gap:50px;
+}
+.content-1{
+  display: none;
+}
+/* Media Queries for laptop */
+@media (max-width:1250px) {
+    .supervisor-roll{
+        margin-top:340px;
+}
+.calculator-roll{
+    margin-top:-1px;
+    margin-left:-420px;
+}
+.team-roll{
+    margin-left:-420px;
+}
+html,body{
+    overflow-y: scroll;
+}
+body{
+    padding-bottom:50px;
+}
+.container{
+    margin-top:100px;
+}
+}
+/* Media Queries for tablet */
+@media (max-width:820px) {
+    .wrapper{
+        flex-direction: column;
+        margin-top:-300px;
+    }
+    .supervisor-roll{
+        margin-top:340px;
+        margin-left:70px;
+}
+.karma-roll{
+    margin-left:70px;
+}
+.calculator-roll{
+    margin-top:-1px;
+    margin-left:70px;
+}
+.team-roll{
+    margin-left:70px;
+}
+.container{
+    margin-top:800px;
+}
+}
+/* Media Queries for tablet */
+@media (max-width:542px) {
+    .logo-content{
+        font-size:12px;
+    }
+    .supervisor-roll,.calculator-roll,.team-roll,.karma-roll{
+        margin-left:20px;
+    }
+}
+/* Media Queries for Mobile */
+@media (max-width:450px) {
+    h1,h2{
+        font-size:25px;
+    }
+    .container{
+        margin-top:550px;
+    }
+    .logo-content{
+        display: none;
+    }
+    .supervisor,.team,.karma,.calculator{
+        font-size:15px;
+    }
+    .supervisor-content,.team-content,.karma-content,.calculator-content{
+        font-size:12px;
+    }
+    .supervisor-content{
+        width:250px;
+    }
+    .team-content{
+        width:230px;
+    }
+    .karma-content{
+        width:240px;
+    }
+    .calculator-content{
+        width:230px;
+    }
+    .supervisor-img img{
+        height:50px;
+        margin-left:-50px;
+    }
+    .team-img img{
+        height:50px;
+        margin-left:-50px;
+    }
+    .karma-img img{
+        height:50px;
+        margin-left:-50px;
+    }
+    .calculator-img img{
+        height:50px;
+        margin-left:-50px;
+    }
+    .content-1{
+        display: block;
+        font-family: 'Poppins', sans-serif; 
+        font-weight:400;
+        color:hsl(229, 6%, 66%);
+        font-size:14px;
+        width:280px;
+        text-align: center;
+        margin-left:10px;
+    }
+    .supervisor-roll,.team-roll,.karma-roll,.calculator-roll{
+        width:270px;
+        height:230px;
+    }
+}
+/* Media Queries for smallest Mobile */
+@media (max-width:330px) {
+    h1,h2{
+        font-size:20px;
+    }
+    .content-1{
+     font-size:11px;
+    }
+    .supervisor,.team,.karma,.calculator{
+        font-size:13px;
+    }
+    .supervisor-content,.team-content,.karma-content,.calculator-content{
+        font-size:10px;
+    }
+    .supervisor-content{
+        width:230px;
+    }
+    .team-content{
+        width:180px;
+    }
+    .karma-content{
+        width:200px;
+    }
+    .calculator-content{
+        width:190px;
+    }
+    .supervisor-img img{
+        height:40px;
+        margin-left:-50px;
+    }
+    .team-img img{
+        height:40px;
+        margin-left:-50px;
+    }
+    .karma-img img{
+        height:40px;
+        margin-left:-50px;
+    }
+    .calculator-img img{
+        height:40px;
+        margin-left:-50px;
+    }
+    .supervisor-roll,.team-roll,.karma-roll,.calculator-roll{
+        width:230px;
+        height:200px;
+    }
+    .wrapper{
+        margin-left:10px;
+    }
+    .container{
+        margin-top:400px;
+    }
+}
+/* end of the  css code*/
